@@ -7,11 +7,11 @@ import datetime
 import pyowm
 import xml.etree.ElementTree as ET
 
-TOKEN = "561792451:AAE1mJ0GJBe1shUG-SXtwfJ7IFmJZyNKMpA"
+TOKEN = ""
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
-API_key = '2855e6dab8831245cb2300589875e9cd'
+API_key = ''
 owm = pyowm.OWM(API_key)
-api = '9837d485-175c-4021-b79a-fec2abcf504b'
+api = ''
 
 
 def get_url(url):
